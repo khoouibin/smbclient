@@ -52,7 +52,6 @@ class SmbClient():
             status = False
         return status, services
 
-
     def get_filenames(self, service_name, folder_name):
         status = True
         filenames = []
@@ -85,7 +84,6 @@ def main():
     file_list = status = samba_client.get_filenames('smb_share', '/')
     print('file_list:', file_list)
 
-   
     print('hello orisol')
     samba_client.disconnect()
 
