@@ -78,3 +78,10 @@ smb: \> get filename.xxx
 ```
 smb: \> put /home/orisol/Desktop/xx.jpg
 ```
+
+
+# python pip
+>> conda env:
+```
+pip install pysmb
+```
